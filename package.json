@@ -1,0 +1,21 @@
+{
+  "name": "note-app",
+  "version": "1.0.0",
+  "description": "note-app-api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "radwa",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "memorystorage": "^0.12.0",
+    "nodemon": "^2.0.20",
+    "sequential-ids": "^0.0.0",
+    "yup": "^0.32.11"
+  }
+}
