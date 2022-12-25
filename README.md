@@ -8,6 +8,10 @@
 
 -- use [nodemon](https://www.npmjs.com/package/nodemon) to automatically restarting.
 
+-- use [objection.js](https://vincit.github.io/objection.js/) is a ORM .
+
+-- use [Knex.js](https://knexjs.org/) is a query builder you can migrate or seed data.
+
 
 ## Installation
 
@@ -19,6 +23,13 @@ npm install
 To run 
 
 ```bash
-nodmon
+create new database
+```
+```bash
+npm run migrate
+```
+
+```bash
+npm run dev
 ```
 
